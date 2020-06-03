@@ -18,8 +18,6 @@ class Transfer
 
   def execute_transaction
     transfer_amount = self.amount
-    new_balance_sender = sender.balance - transfer_amount
-    new_balance_receiver = receiver.balance + transfer_amount
   end
 
 end
