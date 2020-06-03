@@ -17,7 +17,7 @@ class Transfer
   end
 
   def execute_transaction
-    
+    transfer_amount = self.amount
   end
 
 end
