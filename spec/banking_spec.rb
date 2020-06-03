@@ -20,7 +20,7 @@ describe "BankAccount" do
     end
 
     it "can't change its name" do
-      
+      expect { avi.name = "Bob" }.to raise_error
       Expectations.configuration.on_potential_false_positives = :nothing
     end
   end
