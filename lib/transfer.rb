@@ -19,6 +19,7 @@ class Transfer
   def execute_transaction
     if valid? && sender.balance > 0 && status == 'open'
       sender.balance = sender.balance - amount
+    end
   end
 
 end
