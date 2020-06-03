@@ -5,7 +5,7 @@ class BankAccount
     if name = "Avi"
       @name = name
     else
-      raise_error
+      error
     end
     @balance = 1000
     @status = 'open'
