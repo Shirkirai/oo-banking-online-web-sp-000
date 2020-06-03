@@ -13,4 +13,5 @@ class BankAccount
 
   def error
     puts "Can't change name"
+  end
 end
