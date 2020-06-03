@@ -4,7 +4,9 @@ class BankAccount
   def initialize(name)
     if name = "Avi"
       @name = name
-    @name = name
+    else
+      error
+    end
     @balance = 1000
     @status = 'open'
   end
