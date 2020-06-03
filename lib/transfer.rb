@@ -13,9 +13,7 @@ class Transfer
   end
 
   def valid?
-    if self.sender == true && self.receiver == true
-      true
-    end
+    
   end
 
 end
