@@ -6,8 +6,4 @@ class BankAccount
     @balance = 1000
     @status = 'open'
   end
-
-  def error
-    puts "Can't change name"
-  end
 end
