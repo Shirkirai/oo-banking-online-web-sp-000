@@ -19,7 +19,7 @@ class BankAccount
     return "Your balance is $#{@balance}."
   end
 
-  def self.valid?
+  def valid?
     binding.pry
   end
 end
