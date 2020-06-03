@@ -13,7 +13,7 @@ class Transfer
   end
 
   def valid?
-    sender.valid? && receiver.vailid??
+    sender.valid? && receiver.vailid?
   end
 
 end
